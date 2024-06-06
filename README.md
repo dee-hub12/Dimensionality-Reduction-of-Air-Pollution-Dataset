@@ -3,4 +3,5 @@ This project seeks to perform principal component analysis utilizing covariance 
 first two component (Wind Solar and Radiation) as they account for about 95% of the of the total sample variance. Hence we can reduce the data from 42 observations on 7 variables to 42observations on 2 principal components. For the covariance matrix , The first principal components is strongly correlated with x2(Solar Radiation), the second second principal components is strongly correlated with x3(NO) and x6(“O3”), the third principal component is strongly correlated with CO, NO and NO_2. For the coreelation matrix , first principal components is strongly correlated with almost all the 7 variables. The second second
 principal components is strongly Solar Radiation, NO and NO_2.
 
+Variables are : X1= Wind X2= Solar Radiation X3= CO  X4 = NO X5 = NO2 X6=O3  X7=HC
 Note : The difference in the results for the covariance matrix and correlation matrix  may due to the fact that some of the variables might have been measured on scales with widely differing ranges or measurement units.
